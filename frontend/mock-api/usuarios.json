@@ -1,0 +1,84 @@
+{
+  "usuarios": [
+    {
+      "id": "user001",
+      "username": "secretario1",
+      "password": "123",
+      "nomeCompleto": "Ana Costa da Silva",
+      "cpf": "111.111.111-11",
+      "email": "ana.costa@instituicao.com",
+      "telefone": "(68) 99999-1111",
+      "role": "secretario"
+    },
+    {
+      "id": "user002",
+      "username": "residente1",
+      "password": "123",
+      "nomeCompleto": "Fulano Almeida Júnior",
+      "cpf": "222.222.222-22",
+      "email": "fulano.junior@email.com",
+      "telefone": "(68) 99999-8888",
+      "role": "residente"
+    },
+    {
+      "id": "user003",
+      "username": "residente2",
+      "password": "123",
+      "nomeCompleto": "Ciclana de Souza",
+      "cpf": "333.333.333-33",
+      "email": "ciclana.souza@email.com",
+      "telefone": "(68) 98888-7777",
+      "role": "residente"
+    },
+    {
+      "id": "user004",
+      "username": "preceptor1",
+      "password": "123",
+      "nomeCompleto": "Dr. Carlos Andrade",
+      "cpf": "444.444.444-44",
+      "email": "carlos.andrade@instituicao.com",
+      "telefone": "(68) 91111-2222",
+      "role": "preceptor"
+    },
+    {
+      "id": "user005",
+      "username": "preceptor2",
+      "password": "123",
+      "nomeCompleto": "Dra. Ana Lima",
+      "cpf": "555.555.555-55",
+      "email": "ana.lima@instituicao.com",
+      "telefone": "(68) 92222-3333",
+      "role": "preceptor"
+    },
+    {
+      "id": "user006",
+      "username": "coordprog1",
+      "password": "123",
+      "nomeCompleto": "Dr. Roberto Medeiros",
+      "cpf": "666.666.666-66",
+      "email": "roberto.medeiros@instituicao.com",
+      "telefone": "(68) 93333-4444",
+      "role": "coordenador_programa"
+    },
+    {
+      "id": "user007",
+      "username": "coordprog2",
+      "password": "123",
+      "nomeCompleto": "Dra. Lúcia Guimarães",
+      "cpf": "777.777.777-77",
+      "email": "lucia.guimaraes@instituicao.com",
+      "telefone": "(68) 94444-5555",
+      "role": "coordenador_programa"
+    },
+    {
+      "id": "user008",
+      "username": "coordgeral1",
+      "password": "123",
+      "nomeCompleto": "Dra. Helena Ribeiro",
+      "cpf": "888.888.888-88",
+      "email": "helena.ribeiro@instituicao.com",
+      "telefone": "(68) 95555-6666",
+      "role": "coordenador_geral"
+    }
+  ]
+}

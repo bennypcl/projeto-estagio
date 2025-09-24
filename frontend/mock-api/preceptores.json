@@ -1,0 +1,14 @@
+{
+  "preceptores": [
+    {
+      "id": "user004",
+      "especialidade": "Cardiologia",
+      "crm": "1234-AC"
+    },
+    {
+      "id": "user005",
+      "especialidade": "Neurologia",
+      "crm": "4321-AC"
+    }
+  ]
+}

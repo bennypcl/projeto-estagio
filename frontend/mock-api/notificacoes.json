@@ -1,0 +1,12 @@
+{
+  "notificacoes": [
+    {
+      "id": "notif001",
+      "residenteId": "user002",
+      "tipo": "correcao_ponto",
+      "jornadaId": "jornada123",
+      "mensagem": "Seu preceptor solicitou a correção dos horários do dia 06/09/2025.",
+      "status": "nao_lida"
+    }
+  ]
+}

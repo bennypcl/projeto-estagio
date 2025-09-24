@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders', # "união" porta 8000(back) e 5500(front)
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -127,10 +129,15 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Diz ao Django para usar nosso novo sistema de autenticação
-AUTHENTICATION_BACKENDS = [
-    'sistema_frequencia.backends.CPFAuthBackend',
-    'django.contrib.auth.backends.ModelBackend', # Mantém o backend padrão como fallback
+AUTH_USER_MODEL = 'sistema_frequencia.Usuario'
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:5500", # Endereço frontend
+    "http://localhost:5500",
 ]
 
-AUTH_USER_MODEL = 'sistema_frequencia.Usuario'
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}

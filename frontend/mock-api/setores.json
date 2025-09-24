@@ -1,0 +1,19 @@
+{
+  "setores": [
+    {
+      "id": "setor01",
+      "nome": "Hospital das Clínicas do Acre (FUNDHACRE)",
+      "endereco": "Rodovia BR 364, Km 02, 3658 - Coroado, Rio Branco - AC"
+    },
+    {
+      "id": "setor02",
+      "nome": "Maternidade Bárbara Heliodora",
+      "endereco": "Av. Getúlio Vargas, 801 - Centro, Rio Branco - AC"
+    },
+    {
+      "id": "setor03",
+      "nome": "Unidade de Pronto Atendimento (UPA) - Segundo Distrito",
+      "endereco": "Estr. da Sobral, 2123 - Sobral, Rio Branco - AC"
+    }
+  ]
+}

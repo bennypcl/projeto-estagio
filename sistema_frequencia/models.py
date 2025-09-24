@@ -7,17 +7,9 @@ from django.contrib.auth.models import AbstractUser
 
 class Usuario(AbstractUser):
     # Django já dá username, password, email, first_name, last_name
-
-    # Deixando o username não-único e opcional, para usar somente o cpf no login.
-    username = models.CharField(
-        max_length=150,
-        unique=False, # Não é mais único
-        blank=True,
-        null=True
-    )
     
     ROLE_CHOICES = [
-        ('secretario', 'Secretário(a)'),
+        ('secretario', 'Secretário'),
         ('residente', 'Residente'),
         ('preceptor', 'Preceptor'),
         ('coordenador_programa', 'Coordenador de Programa'),
@@ -29,11 +21,8 @@ class Usuario(AbstractUser):
     telefone = models.CharField(max_length=20, blank=True, null=True)
     role = models.CharField(max_length=20, choices=ROLE_CHOICES)
 
-    USERNAME_FIELD = 'cpf' # cpf como chave de entrada no login.
-    REQUIRED_FIELDS = ['first_name', 'last_name', 'email']
-
     def __str__(self):
-        return self.get_full_name() or self.cpf
+        return self.get_full_name() or self.username
 
 # ============================================================================
 # PERFIS DE SECRETARIO, PRECEPTOR, TUTOR E COORD. GERAL

@@ -1,0 +1,10 @@
+{
+  "modulos": [
+    { "titulo": "Programas" },
+    { "titulo": "Preceptores" },
+    { "titulo": "Turmas" },
+    { "titulo": "Residentes" },
+    { "titulo": "Relatórios" },
+    { "titulo": "Coordenadores" }
+  ]
+}

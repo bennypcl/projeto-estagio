@@ -1,0 +1,19 @@
+{
+  "residentes": [
+    {
+      "id": "res001",
+      "nome": "Fulano Almeida Júnior",
+      "programa": "REO-T01_2025"
+    },
+    {
+      "id": "res002",
+      "nome": "Ciclana de Souza",
+      "programa": "REO-T01_2025"
+    },
+    {
+      "id": "res003",
+      "nome": "Beltrano da Silva",
+      "programa": "REO-T02_2025"
+    }
+  ]
+}

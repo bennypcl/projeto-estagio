@@ -1,0 +1,12 @@
+{
+  "coordenadoresPrograma": [
+    {
+      "id": "user006",
+      "programaId": "reo01"
+    },
+    {
+      "id": "user007",
+      "programaId": "reo02"
+    }
+  ]
+}
