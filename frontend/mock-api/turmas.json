@@ -1,0 +1,24 @@
+{
+  "turmas": [
+    {
+      "id": "turma201",
+      "codigo": "REO_2024",
+      "programaId": "reo01"
+    },
+    {
+      "id": "turma202",
+      "codigo": "REO_2025",
+      "programaId": "reo01"
+    },
+    {
+      "id": "turma203",
+      "codigo": "RMISC_2025",
+      "programaId": "reo02"
+    },
+    {
+      "id": "turma204",
+      "codigo": "RMHTI_2025",
+      "programaId": "reo02"
+    }
+  ]
+}

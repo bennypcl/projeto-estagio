@@ -1,0 +1,24 @@
+{
+  "avaliacoes": [
+    {
+      "id": "aval001",
+      "residenteId": "user002",
+      "preceptorId": "user004",
+      "formularioId": "form_enfermagem_bimestral",
+      "titulo": "Avaliação Bimestral",
+      "periodo": "Jul - Ago / 2025",
+      "status": "nao_iniciada",
+      "respostas": {}
+    },
+    {
+      "id": "aval002",
+      "residenteId": "user003",
+      "preceptorId": "user004",
+      "formularioId": "form_enfermagem_bimestral",
+      "titulo": "Avaliação Bimestral",
+      "periodo": "Jul - Ago / 2025",
+      "status": "nao_iniciada",
+      "respostas": {}
+    }
+  ]
+}

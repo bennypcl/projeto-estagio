@@ -1,0 +1,20 @@
+{
+  "programas": [
+    {
+      "id": "reo01",
+      "codigo": "REO",
+      "nome": "Residência em Enfermagem Obstétrica",
+      "coordenadorId": "user006",
+      "setorId": "setor02",
+      "duracao": "Bimestral"
+    },
+    {
+      "id": "ro02",
+      "codigo": "RO",
+      "nome": "Residência em Ortopedia",
+      "coordenadorId": "user007",
+      "setorId": "setor01",
+      "duracao": "Trimestral"
+    }
+  ]
+}

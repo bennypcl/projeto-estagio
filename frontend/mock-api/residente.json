@@ -1,0 +1,7 @@
+{
+  "modulos": [
+    { "titulo": "Bater Ponto", "link": "bater-ponto.html"},
+    { "titulo": "Histórico", "link": "historico-residente.html"},
+    { "titulo": "Notificações" , "link": "notificacoes-residente.html"}
+  ]
+}

@@ -1,0 +1,493 @@
+/* Estilos Gerais */
+body {
+    background-color: #f8f9fa;
+}
+
+/* --- Estilos da Tela de Login --- */
+.login-container {
+    background-color: white;
+    padding: 40px;
+}
+
+/* Customização para deixar os inputs e botões com as bordas arredondadas */
+.custom-input {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.custom-btn {
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* --- Estilos da Tela Principal (Dashboard) --- */
+
+/* Customização do componente de info do usuário */
+.user-info {
+    background-color: #e9ecef;
+    border-radius: 25px;
+}
+
+.user-info .icon {
+    background-color: #0d6efd;
+    width: 32px;
+    height: 32px;
+}
+
+/* Estilos para customizar a aparência dos cards além do Bootstrap */
+.module-card {
+    background-color: #e9ecef;
+    border-radius: 15px;
+    height: 180px;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    color: #000;
+}
+
+.module-card h2 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+/* Estilo customizado para o botão de logout */
+.logout-btn {
+    border-radius: 8px !important; /* Arredonda as bordas */
+    border: 1px solid #dee2e6;  /* Adiciona uma borda cinza clara sutil */
+}
+
+/* --- Estilos da Página de Programas --- */
+
+.program-actions .btn {
+    color: #6c757d; /* Cor para os ícones */
+}
+
+.program-actions .btn:hover {
+    background-color: #d1d1d1;
+}
+
+/* --- Estilos do Formulário de Cadastro --- */
+.local-item .btn-close {
+    /* botão de fechar maior */
+    padding: 0.5rem;
+}
+
+/* --- Estilos da Lista de Programas --- */
+.program-item-wrapper {
+    position: relative; /* Necessário para posicionar os botões de ação */
+    background-color: #e9ecef;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.program-item-link {
+    display: block;
+    padding: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    flex-grow: 1; /* Faz o link ocupar todo o espaço disponível */
+}
+
+.program-actions {
+    padding: 1.5rem; /* padding para alinhar com o conteúdo */
+}
+
+/* --- Estilos da Página de Detalhes do Programa --- */
+.details-card, .local-card {
+    background-color: #e9ecef;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.locais-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* --- Estilos Genéricos para Páginas de Lista --- */
+.list-item-wrapper {
+    position: relative;
+    background-color: #e9ecef;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+
+.list-item-wrapper:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+}
+
+.list-item-link {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.list-item-actions {
+    padding: 0 1.5rem; /* Ajusta o padding para alinhar os ícones */
+}
+
+.list-item-actions .btn {
+    color: #6c757d;
+}
+
+.list-item-actions .btn:hover {
+    background-color: #d1d1d1;
+}
+
+/* --- Estilos da Página de Turmas (Cards) --- */
+
+.turma-card {
+    background-color: #e9ecef;
+    border-radius: 15px;
+    border: none;
+    min-height: 150px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.turma-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* O "stretched-link" do Bootstrap faz com que a tag <a> cubra todo o card */
+.turma-card .card-body {
+    position: relative; /* Necessário para o stretched-link funcionar */
+}
+
+/* Posiciona os botões de ação por cima do link */
+.turma-card-actions {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.5rem;
+    z-index: 1; /* Garante que os botões fiquem na frente do link */
+}
+
+.turma-card-actions .btn {
+    color: #6c757d;
+}
+
+/* --- Estilos da Tela Bater Ponto -> TELA RESIDENTE --- */
+.point-card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.resident-info {
+    background-color: #e9ecef;
+    border-radius: 12px;
+}
+
+.time-display {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #495057;
+}
+
+/* --- Estilo do Relógio no Cabeçalho -> TELA RESIDENTE --- */
+.live-clock-display {
+    font-size: 1.25rem; /* Tamanho da fonte */
+    font-weight: 500;   /* Peso da fonte (semi-bold) */
+    color: #6c757d;     /* Cor cinza sutil */
+}
+
+.history-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #e9ecef;*/
+    background-color: #a3cc74;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* --- Estilos dos Detalhes do Histórico -> TELA RESIDENTE --- */
+.history-card-details {
+    background-color: #f1f8e9; /* Um verde ainda mais claro */
+    padding: 1rem 1.5rem;
+    border-radius: 0 0 15px 15px; /* Arredonda só os cantos de baixo */
+    margin-top: -10px; /* Puxa para perto do card de cima */
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border-top: 1px solid #dcedc8; /* Linha sutil de separação */
+}
+
+.history-card-details p {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #c5e1a5;
+    padding-bottom: 0.5rem;
+}
+
+.history-card-details p:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* --- Estilos da Tela de Detalhes do Histórico -> TELA RESIDENTE --- */
+.detail-card {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+}
+
+.detail-card .detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.detail-card .detail-header .badge {
+    font-size: 1.25rem;
+}
+
+.detail-card .detail-body p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+/* --- Estilos da Tela de DETALHES DE HISTORICO -> TELA RESIDENTE --- */
+.session-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.session-entry-exit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.session-entry-exit .time-badge {
+    font-size: 1.25rem;
+}
+
+.session-intervals {
+    padding-top: 1rem;
+}
+
+.session-intervals h6 {
+    color: #666;
+}
+
+.interval-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+/* --- Estilo do Rodapé do Card de Sessão RESIDENTE --- */
+.session-footer {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    text-align: right;
+    color: #333;
+}
+
+/* --- Tela de Residentes (Preceptor) --- */
+.residente-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.2s;
+}
+
+.residente-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.residente-card .avatar {
+    background-color: #0d6efd;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.residente-card .info {
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+
+.residente-card .info h5 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.residente-card .info p {
+    margin: 0;
+    color: #6c757d;
+}
+/*-----*/
+
+/* --- Estilos para os Cards de Histórico do Residente --- */
+.history-point-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-left-width: 6px; /* Borda esquerda mais grossa para a cor de status */
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history-point-card.status-aprovado {
+    border-left-color: #28a745; /* Verde */
+}
+.history-point-card.status-justificado {
+    border-left-color: #ffc107; /* Amarelo */
+}
+.history-point-card.status-reprovado {
+    border-left-color: #dc3545; /* Vermelho */
+}
+.history-point-card.status-pendente {
+    border-left-color: #6c757d; /* Cinza */
+}
+
+.history-point-card .point-info h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+.history-point-card .point-info p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    color: #6c757d;
+}
+.history-point-card .point-status .badge {
+    font-size: 0.8rem;
+}
+
+/* --- Estilos da Tela de Histórico por Jornada --- */
+.jornada-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-left-width: 6px;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.jornada-card:hover {
+    background-color: #f8f9fa;
+}
+
+.jornada-card.status-aprovado    { border-left-color: #28a745; }
+.jornada-card.status-justificado { border-left-color: #ffc107; }
+.jornada-card.status-reprovado   { border-left-color: #dc3545; }
+.jornada-card.status-pendente    { border-left-color: #6c757d; }
+
+.jornada-details {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px; /* Puxa para perto do card de cima */
+}
+
+/* --- Estilos da Tela de Pendências (Preceptor) --- */
+.pendencia-card .card-header {
+    background-color: #f8f9fa;
+}
+
+.pendencia-card ul {
+    padding-left: 1.2rem;
+}
+
+.pendencia-card .justificativa-box {
+    background-color: #fff9e6; /* Amarelo bem claro */
+    border-left: 4px solid #ffc107; /* Borda amarela */
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.pendencia-card .card-footer {
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+/* PRECEPTORES - Tela de avaliações */
+
+/* --- Estilos da Tela de Avaliações (Preceptor) --- */
+.avaliacao-card {
+    /* Herda os estilos de .list-item-wrapper */
+    border-left-width: 6px;
+    text-decoration: none;
+}
+
+.avaliacao-card.status-nao_iniciada {
+    border-left-color: #0d6efd; /* Azul */
+}
+
+.avaliacao-card.status-concluida {
+    border-left-color: #6c757d; /* Cinza */
+    background-color: #f8f9fa;
+}
+
+.avaliacao-card.status-concluida .list-item-content,
+.avaliacao-card.status-concluida .list-item-actions {
+    opacity: 0.7;
+}
+
+.avaliacao-card .list-item-content p {
+    margin: 0;
+}

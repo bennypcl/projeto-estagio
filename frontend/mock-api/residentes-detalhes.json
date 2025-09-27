@@ -1,0 +1,34 @@
+{
+  "residentes": [
+    {
+      "id": "res001",
+      "nome": "Fulano Almeida Júnior",
+      "cpf": "123.456.789-00",
+      "matricula": "987654",
+      "telefone": "(68) 99999-8888",
+      "email": "fulano.junior@email.com",
+      "turmaCodigo": "REO-T01_2025",
+      "preceptorNome": "Dr. Carlos Andrade"
+    },
+    {
+      "id": "res002",
+      "nome": "Ciclana de Souza",
+      "cpf": "111.222.333-44",
+      "matricula": "987655",
+      "telefone": "(68) 98888-7777",
+      "email": "ciclana.souza@email.com",
+      "turmaCodigo": "REO-T01_2025",
+      "preceptorNome": "Dr. Carlos Andrade"
+    },
+    {
+      "id": "res003",
+      "nome": "Beltrano da Silva",
+      "cpf": "555.666.777-88",
+      "matricula": "987656",
+      "telefone": "(68) 97777-6666",
+      "email": "beltrano.silva@email.com",
+      "turmaCodigo": "REO-T02_2025",
+      "preceptorNome": "Dra. Ana Lima"
+    }
+  ]
+}

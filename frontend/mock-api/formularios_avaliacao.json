@@ -1,0 +1,27 @@
+{
+  "formularios": [
+    {
+      "id": "form_enfermagem_bimestral",
+      "programaId": "reo01",
+      "titulo": "Avaliação Bimestral (Enfermagem)",
+      "secoes": [
+        {
+          "titulo": "Aspectos Comportamentais",
+          "criterios": [
+            { "id": "pontualidade", "texto": "Pontualidade/Assiduidade" },
+            { "id": "apresentacao", "texto": "Apresentação Pessoal" },
+            { "id": "equilibrio", "texto": "Equilíbrio Emocional" },
+            { "id": "iniciativa", "texto": "Iniciativa" }
+          ]
+        },
+        {
+          "titulo": "Aspectos Técnicos",
+          "criterios": [
+            { "id": "conhecimento", "texto": "Conhecimento Teórico" },
+            { "id": "procedimentos", "texto": "Habilidade com Procedimentos" }
+          ]
+        }
+      ]
+    }
+  ]
+}

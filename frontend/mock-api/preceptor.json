@@ -1,0 +1,9 @@
+{
+  "modulos": [
+    { "titulo": "Pendências" , "link": "precept-pendencias.html"},
+    { "titulo": "Turmas" , "link": "precept-turmas.html" },
+    { "titulo": "Atividades Realizadas" , "link": "precept-atividades.html"},
+    { "titulo": "Residentes" , "link": "precept-residentes.html"},
+    { "titulo": "Avaliações" , "link": "precept-avaliacoes.html"}
+  ]
+}

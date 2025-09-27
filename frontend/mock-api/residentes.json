@@ -1,0 +1,16 @@
+{
+  "residentes": [
+    {
+      "id": "user002",
+      "matricula": "987654",
+      "turmaId": "turma202",
+      "preceptorId": "user004"
+    },
+    {
+      "id": "user003",
+      "matricula": "987655",
+      "turmaId": "turma202",
+      "preceptorId": "user004"
+    }
+  ]
+}
